@@ -11,32 +11,33 @@
    <group id="532">
     <note>HTTPS Everywhere FAQ</note>
     <trans-unit id="532][body][0][value" resname="532][body][0][value">
-     <source xml:lang="en"><bpt id="tjiid532-1">&lt;p&gt;</bpt><![CDATA[This page answers frequently-asked questions about EFF's ]]><bpt id="tjiid532-2">&lt;a href="/https-everywhere"&gt;</bpt><![CDATA[HTTPS Everywhere]]><ept id="tjiid532-2">&lt;/a&gt;</ept><![CDATA[ project. If your question isn't answered below, you can try the resources ]]><bpt id="tjiid532-4">&lt;a href="/https-everywhere/development"&gt;</bpt><![CDATA[listed here]]><ept id="tjiid532-4">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid532-1">&lt;/p&gt;</ept></source>
+     <source xml:lang="en"><bpt id="tjiid532-1">&lt;p&gt;</bpt><![CDATA[Esta pagina resuelve preguntas frecuentes sobre el proyecto de EFF.]]><bpt id="tjiid532-2">&lt;a href="/https-everywhere"&gt;</bpt><![CDATA[HTTPS Everywhere]]><ept id="tjiid532-2">&lt;/a&gt;</ept><![CDATA[Si tu pregunta no esta resuelta aqui, ruege referirse a los recursos]]><bpt id="tjiid532-4">&lt;a href="/https-everywhere/development"&gt;</bpt><![CDATA[enumerados aquí.]]><ept id="tjiid532-4">&lt;/a&gt;</ept><![CDATA[.]]><ept id="tjiid532-1">&lt;/p&gt;</ept></source>
      <target xml:lang="es"/>
      <note>Body</note>
     </trans-unit>
     <trans-unit id="532][field_questions][0][question" resname="532][field_questions][0][question">
-     <source xml:lang="en"><![CDATA[What if HTTPS Everywhere breaks some site that I use?]]></source>
+     <source xml:lang="en"><![CDATA[¿Y si HTTPS Everywhere quiebra alguna pagina web que yo use?]]></source>
      <target xml:lang="es"/>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="532][field_questions][0][answer" resname="532][field_questions][0][answer">
-     <source xml:lang="en"><bpt id="tjiid532-1">&lt;p&gt;</bpt><ept id="tjiid532-1">&lt;/p&gt;</ept><bpt id="tjiid532-3">&lt;a name="bugs"&gt;</bpt><ept id="tjiid532-3">&lt;/a&gt;</ept><bpt id="tjiid532-5">&lt;p&gt;</bpt><![CDATA[This is occasionally possible because of inconsistent support for HTTPS on sites (e.g., when a site seems to support HTTPS access but makes a few, unpredictable, parts of the site unavailable in HTTPS). If you ]]><bpt id="tjiid532-6">&lt;a href="https://github.com/EFForg/https-everywhere/issues"&gt;</bpt><![CDATA[report the problem to us]]><ept id="tjiid532-6">&lt;/a&gt;</ept><![CDATA[, we can try to fix it. In the meantime, you can disable the rule affecting that particular site in your own copy of HTTPS Everywhere by clicking on the HTTPS Everywhere toolbar button and unchecking the rule for that site.]]><ept id="tjiid532-5">&lt;/p&gt;</ept><bpt id="tjiid532-9">&lt;p&gt;</bpt><![CDATA[You can also report the problem to the site, since they have the power to fix it!]]><ept id="tjiid532-9">&lt;/p&gt;</ept></source>
+     <source xml:lang="en"><bpt id="tjiid532-1">&lt;p&gt;</bpt><ept id="tjiid532-1">&lt;/p&gt;</ept><bpt id="tjiid532-3">&lt;a name="bugs"&gt;</bpt><ept id="tjiid532-3">&lt;/a&gt;</ept><bpt id="tjiid532-5">&lt;p&gt;</bpt><![CDATA[Es posible, ocasionalmente, a causa del incosistente soporte para HTTPS en algunas paginas web (por ejemplo, cuando una pagina parece soportar acceso HTTPS pero contiene ciertos elementos que resultan ser imprevisiblemente indisponibles via HTTPS.)
+      Si usted ]]><bpt id="tjiid532-6">&lt;a href="https://github.com/EFForg/https-everywhere/issues"&gt;</bpt><![CDATA[nos reporta el problema]]><ept id="tjiid532-6">&lt;/a&gt;</ept><![CDATA[, podemos tratar de arreglarlo. Mientras tanto, puedes desactivar la regla que regule esa pagina web en particular en tu propia cuenta de HTTPS Everywhere, pulsando el botón en la barra de herramientas de HTTPS Everywhere para deseleccionar la regla para esa pagina web.]]><ept id="tjiid532-5">&lt;/p&gt;</ept><bpt id="tjiid532-9">&lt;p&gt;</bpt><![CDATA[También puedes denunciar el asunto a la pagina web misma, ya que, ¡ellos tienen la capacidad de resolverlo!]]><ept id="tjiid532-9">&lt;/p&gt;</ept></source>
      <target xml:lang="es"/>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="532][field_questions][1][question" resname="532][field_questions][1][question">
-     <source xml:lang="en"><![CDATA[Why is HTTPS Everywhere preventing me from joining this hotel/school/other wireless network?]]></source>
+     <source xml:lang="en"><![CDATA[¿Por qué HTTPS Everywhere no me permite conectarme a la red inalámbrica de este hotel/esta escuela/etc?]]></source>
      <target xml:lang="es"/>
      <note>Question</note>
     </trans-unit>
     <trans-unit id="532][field_questions][1][answer" resname="532][field_questions][1][answer">
-     <source xml:lang="en"><bpt id="tjiid532-1">&lt;p&gt;</bpt><ept id="tjiid532-1">&lt;/p&gt;</ept><bpt id="tjiid532-3">&lt;a name="captiveportal"&gt;</bpt><ept id="tjiid532-3">&lt;/a&gt;</ept><bpt id="tjiid532-5">&lt;p&gt;</bpt><![CDATA[Some wireless networks hijack your HTTP connections when you first join them, in order to demand authentication or simply to try to make you agree to terms of use. HTTPS pages are protected against this type of hijacking, which is as it should be. If you go to a website that isn't protected by HTTPS Everywhere (currently, nytimes.com is one such site) that will allow your connection to be captured and redirected to the authentication or terms of use page.]]><ept id="tjiid532-5">&lt;/p&gt;</ept></source>
+     <source xml:lang="en"><bpt id="tjiid532-1">&lt;p&gt;</bpt><ept id="tjiid532-1">&lt;/p&gt;</ept><bpt id="tjiid532-3">&lt;a name="captiveportal"&gt;</bpt><ept id="tjiid532-3">&lt;/a&gt;</ept><bpt id="tjiid532-5">&lt;p&gt;</bpt><![CDATA[Algunas redes inalámbricas apoderarse de tus connexiones HTTP cuando te agregas a ellas por primera vez, a fin de demandar autenticacion o simplemente para tratar de conseguir que aceptes sus condiciones de uso. Paginas HTTPS estan protegidas contro este tipo de secuestro, como es debido. Al visitar una pagina que no este protegida por HTTPS Everywhere (actualmente nytimes.com es una tal pagina), permites que tu conexion sea capturada y redirigida a la pagina de autenticacion o de condiciones de uso.]]><ept id="tjiid532-5">&lt;/p&gt;</ept></source>
      <target xml:lang="es"/>
      <note>Answer</note>
     </trans-unit>
     <trans-unit id="532][field_questions][2][question" resname="532][field_questions][2][question">
-     <source xml:lang="en"><![CDATA[Will there be a version of HTTPS Everywhere for IE, Safari, or some other browser?]]></source>
+     <source xml:lang="en"><![CDATA[¿Habra una version de HTTPS Everywhere para IE, Safari, o algún otro navegador?]]></source>
      <target xml:lang="es"/>
      <note>Question</note>
     </trans-unit>
@@ -236,18 +237,18 @@ We chose technologies that have a large user base--and thus a great deal of sens
 ]]><bpt id="tjiid536-7">&lt;a name="methodology"&gt;</bpt><ept id="tjiid536-7">&lt;/a&gt;</ept><![CDATA[
 ]]><bpt id="tjiid536-9">&lt;div class="section"&gt;</bpt><![CDATA[
 
-]]><bpt id="tjiid536-10">&lt;h2&gt;</bpt><![CDATA[Methodology]]><ept id="tjiid536-10">&lt;/h2&gt;</ept><![CDATA[
+]]><bpt id="tjiid536-10">&lt;h2&gt;</bpt><![CDATA[Metodología]]><ept id="tjiid536-10">&lt;/h2&gt;</ept><![CDATA[
 
-]]><bpt id="tjiid536-12">&lt;p dir="ltr"&gt;</bpt><![CDATA[Here are the criteria we looked at in assessing the security of various communication tools.]]><ept id="tjiid536-12">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid536-12">&lt;p dir="ltr"&gt;</bpt><![CDATA[Aqui estan los criterios que buscamos al asesorar las medidas de seguridad de varias herramientas de comunicación.]]><ept id="tjiid536-12">&lt;/p&gt;</ept><![CDATA[
 
 
 ]]><bpt id="tjiid536-14">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid536-15">&lt;a name="encrypted"&gt;</bpt><ept id="tjiid536-15">&lt;/a&gt;</ept><bpt id="tjiid536-17">&lt;strong&gt;</bpt><![CDATA[1. Is your communication encrypted in transit?]]><ept id="tjiid536-17">&lt;/strong&gt;</ept><![CDATA[
-This criterion requires that all user communications are encrypted along all the links in the communication path. Note that we are not requiring encryption of data that is transmitted on a company network, though that is ideal. We do not require that metadata (such as user names or addresses) is encrypted.]]><ept id="tjiid536-14">&lt;/p&gt;</ept><![CDATA[
+Este criterio requiere que todas las comunicaciones sean encriptadas a lo mismo que todos los enlaces en su camino. Tenga en cuenta que no requirimos que se encripten los datos transmitidos atraves de la red interna de una compañia, aunque eso seria lo ideal. No requirimos que los metadatos (como los nombres de usuarios o direcciones) sean encriptados.]]><ept id="tjiid536-14">&lt;/p&gt;</ept><![CDATA[
 
 ]]><bpt id="tjiid536-20">&lt;a name="encrypted"&gt;</bpt><ept id="tjiid536-20">&lt;/a&gt;</ept><![CDATA[
 
-]]><bpt id="tjiid536-22">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid536-23">&lt;a name="encrypted"&gt;</bpt><ept id="tjiid536-23">&lt;/a&gt;</ept><bpt id="tjiid536-25">&lt;a name="e2e"&gt;</bpt><ept id="tjiid536-25">&lt;/a&gt;</ept><bpt id="tjiid536-27">&lt;strong&gt;</bpt><![CDATA[2.]]><ept id="tjiid536-27">&lt;/strong&gt;</ept><![CDATA[ ]]><bpt id="tjiid536-29">&lt;strong&gt;</bpt><![CDATA[Is your communication encrypted with a key the provider doesn't have access to?]]><ept id="tjiid536-29">&lt;/strong&gt;</ept><![CDATA[
-This criterion requires that all user communications are end-to-end encrypted. This means the keys necessary to decrypt messages must be generated and stored at the endpoints (i.e. by users, not by servers). The keys should never leave endpoints except with explicit user action, such as to backup a key or synchronize keys between two devices. It is fine if users' public keys are exchanged using a centralized server.]]><ept id="tjiid536-22">&lt;/p&gt;</ept><![CDATA[
+]]><bpt id="tjiid536-22">&lt;p dir="ltr"&gt;</bpt><bpt id="tjiid536-23">&lt;a name="encrypted"&gt;</bpt><ept id="tjiid536-23">&lt;/a&gt;</ept><bpt id="tjiid536-25">&lt;a name="e2e"&gt;</bpt><ept id="tjiid536-25">&lt;/a&gt;</ept><bpt id="tjiid536-27">&lt;strong&gt;</bpt><![CDATA[2.]]><ept id="tjiid536-27">&lt;/strong&gt;</ept><![CDATA[ ]]><bpt id="tjiid536-29">&lt;strong&gt;</bpt><![CDATA[¿Estan encriptadas sus comunicaciónes con una llave a la que el proveedor no tiene acceso?]]><ept id="tjiid536-29">&lt;/strong&gt;</ept><![CDATA[
+Este criterio requiere que todas las comunicaciónes del usuario sean encriptadas de punto-a-punto. Esto significa que las llaves necesario para deciptar los mensajes deben ser generadas y guardadas en los extremos (es decir, por los usuarios y no por los servidores). Las llaves no deben jamas salir fuera de los extremos, menos que a traves de explicita accion del usuario, como por ejemplo para hacer una copia de seguridad o para sincronizar las llaves entre dos dispositivos. Esta permitido que las llaves publicas de los usuarios se intercambien mediante un servidor centralizado.]]><ept id="tjiid536-22">&lt;/p&gt;</ept><![CDATA[
 
 ]]><bpt id="tjiid536-32">&lt;a name="e2e"&gt;</bpt><ept id="tjiid536-32">&lt;/a&gt;</ept><![CDATA[
 
